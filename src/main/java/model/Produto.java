@@ -21,6 +21,9 @@ public class Produto {
     @NotNull(message = "O Atributo preco é obrigatorio")
     private float preco;
 
+    @ManyToOne
+    @JsonIgnoreProperties("produto")
+    private Categoria categoria;
     public Long getId() {
         return id;
     }
@@ -53,8 +56,6 @@ public class Produto {
         this.categoria = categoria;
     }
 
-    @ManyToOne
-    @JsonIgnoreProperties("produto")
-    private Categoria categoria;
+
 
 }
