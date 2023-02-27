@@ -1,7 +1,6 @@
-package repository;
+package com.example.lojagames.repository;
 
-import model.Categoria;
-import model.Produto;
+import com.example.lojagames.model.Produto;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.repository.query.Param;
 import org.springframework.stereotype.Repository;
