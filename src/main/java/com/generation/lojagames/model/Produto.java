@@ -1,4 +1,4 @@
-package com.example.lojagames.model;
+package com.generation.lojagames.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import jakarta.persistence.*;

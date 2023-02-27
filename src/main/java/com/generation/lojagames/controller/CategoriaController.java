@@ -1,14 +1,14 @@
-package com.example.lojagames.controller;
+package com.generation.lojagames.controller;
 
 
+import com.generation.lojagames.model.Categoria;
 import jakarta.validation.Valid;
-import com.example.lojagames.model.Categoria;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.server.ResponseStatusException;
-import com.example.lojagames.repository.CategoriaRepository;
+import com.generation.lojagames.repository.CategoriaRepository;
 
 import java.util.List;
 import java.util.Optional;
